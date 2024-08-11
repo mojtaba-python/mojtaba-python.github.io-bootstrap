@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.body{
+    font-family: Arial;
+}
+.div_header {
+    text-align: center
+}
+
+.bg_nav {
+    background-color: rgb(189, 212, 247);
+}
+
+.sec_main {
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.box_container {
+    height: 500px;
+    width: 700px;
+    background-image: url('/service-8.jpg');
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.box {
+    margin-top: 2rem;
+    width: 65%;
+    height: 65%;
+    background: linear-gradient(#686f86, #9fa4b7);
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: justify;
+    color: #2f3442;
+    font-size: larger;
+    position: absolute;
+    left: 2rem;
+    font-weight: 400;
+}
+
+.btn_prof {
+    border: 1px solid #fff;
+    background-color: #9fa4b700;
+    border-radius: 4px;
+    font-size: medium;
+    font-weight: 500;
+
+}
+
+.btn_prof:hover {
+    background-color: #a3a8bb8f;
+}
+
+.box_note {
+
+    background: linear-gradient(#6da3da, #9fa4b7);
+    color: #fff;
+    text-align: center;
+}
+
+.box_footer {
+    background: linear-gradient(45deg, #6da3da, #9fa4b7);
+    color: rgb(10 33 56);
+    text-align: center;
+}
+
+@media screen and (max-width:680px) {
+    .box {
+        width: 50%;
+        height: 60%;
+        font-size: medium;
+    }
+
+    #img_box {
+        width: 220px;
+        height: 50px;
+    }
+}
+
+@media screen and (max-width:545px) {
+    .box {
+         width: 60%;
+         height: 50%;
+        font-size: small;
+    }
+    #img_box {
+        width: 200px;
+        height: 50px;
+    }
+    .btn_prof {
+        font-size: small;
+       
+    }
+
+}
